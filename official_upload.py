@@ -11,9 +11,9 @@ TYELLOW = '\033[33m'
 
 sourceforge_remote_path = "/home/frs/p/evolution-x"
 sourceforge_host = "frs.sourceforge.net"
-config_folder = "upload_config"
-config_creds = "upload_config/credentials.json"
-config_devices = "upload_config/devices/"
+config_folder = "official_upload/"
+config_creds = "official_upload/credentials.json"
+config_devices = "official_upload/devices/"
 out = "../out/target/product/"
 
 ssh = paramiko.SSHClient()
